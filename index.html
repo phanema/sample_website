@@ -11,8 +11,14 @@
       #exec-bio {
         background-color: lightgray;
       }
-      div.bio-box {
+      #skill-1 {
+        background-color: orange;
+      }
+      .bio-box {
         border: 1px solid black;
+      }
+      .bio-box-b {
+        background-color: black;
       }
       .bio-box a {
         color: green;
@@ -23,7 +29,7 @@
   <body>
     <h1>I'm an h1</h1>
     <ul>
-      <li>
+      <li id="skill-1">
         <a href="https://example.com/">Link</a>
       </li>
       <li>
@@ -35,16 +41,16 @@
     </ul>
 
     <h2>I'm an h2</h2>
-    <div id="exec-bio" class="bio-box">
+    <div id="exec-bio" class="bio-box bio-box-b">
       <a href="https://example.com/">I'm a link</a>
     </div>
-    <div class="bio-box">
+    <div class="bio-box bio-box-b">
       <a href="https://example.com/">I'm a link</a>
     </div>
-    <div class="bio-box">
+    <div class="bio-box bio-box-b">
       <a href="https://example.com/">I'm a link</a>
     </div>
-    <div class="bio-box">
+    <div class="bio-box bio-box-b">
       <a href="https://example.com/">I'm a link</a>
     </div>
   </body>
