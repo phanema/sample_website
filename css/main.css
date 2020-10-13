@@ -138,7 +138,7 @@ h2 ~ p {
 }
 .footer h3 {
   color: #fff;
-  padding-top: 1.5em;
+  padding-top: 1em;
   text-transform: uppercase;
 }
 .footer h3 span {
@@ -184,6 +184,9 @@ h2 ~ p {
 .social-list > li {
   display: inline-block;
   margin: 0 0.5em;
+}
+.social-footer {
+  padding: 1em 1em .5em 1em;
 }
 
 /* BIO STYLES */
